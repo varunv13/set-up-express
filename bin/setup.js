@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 // Define the directories and files to be created
-const directories = ["src", "config", "controllers", "routes", "middlewares", "models", "utils"];
+const directories = ["config", "controllers", "routes", "middlewares", "models", "utils"];
 const files = {
   "app.js": `import express from "express";
 import dotenv from "dotenv/config";

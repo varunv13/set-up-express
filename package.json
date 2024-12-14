@@ -1,6 +1,6 @@
 {
   "name": "@varunverma13/set-up-express",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "description": "A setup for quickly creating an Express.js application",
   "main": "app.js",
   "bin": {
@@ -20,7 +20,6 @@
   },
 "files": [
   "bin/",
-  "src/",
   "config/",
   "controllers/",
   "middlewares/",
