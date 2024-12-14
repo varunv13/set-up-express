@@ -1,5 +1,5 @@
 {
-  "name": "@varunv13/set-up-express",
+  "name": "@varunverma13/set-up-express",
   "version": "1.0.0",
   "description": "A setup for quickly creating an Express.js application",
   "main": "app.js",
