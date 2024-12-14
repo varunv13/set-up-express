@@ -1,11 +1,15 @@
 {
   "name": "@varunverma13/set-up-express",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "A setup for quickly creating an Express.js application",
   "main": "app.js",
+  "bin": {
+    "set-up-express": "./bin/setup.js"
+  },
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+     "postinstall": "node bin/setup.js && npm uninstall @varunverma13/set-up-express"
   },
   "keywords": ["express", "setup", "nodejs", "middleware"],
   "author": "Varun Verma",
@@ -14,17 +18,19 @@
     "type": "git",
     "url": "https://github.com/varunv13/set-up-express.git"
   },
-  "files": [
-    "src/",
-    "config/",
-    "controllers/",
-    "middlewares/",
-    "models",
-    "routes/",
-    "utils/",
-    "app.js",
-    "README.md"
-  ],
+"files": [
+  "bin/",
+  "src/",
+  "config/",
+  "controllers/",
+  "middlewares/",
+  "models/",
+  "routes/",
+  "utils/",
+  "app.js",
+  "README.md"
+]
+,
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
