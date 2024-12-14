@@ -5,15 +5,26 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js"    
+    "dev": "nodemon app.js"
   },
   "keywords": ["express", "setup", "nodejs", "middleware"],
-  "author": "Varun Verma varnuverma1303@gmail.com",
+  "author": "Varun Verma <your_email@example.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/varunv13/set-up-express.git"
   },
+  "files": [
+    "src/",
+    "config/",
+    "controllers/",
+    "middlewares/",
+    "models",
+    "routes/",
+    "utils/",
+    "app.js",
+    "README.md"
+  ],
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
