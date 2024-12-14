@@ -8,7 +8,7 @@
     "dev": "nodemon app.js"
   },
   "keywords": ["express", "setup", "nodejs", "middleware"],
-  "author": "Varun Verma <your_email@example.com>",
+  "author": "Varun Verma",
   "license": "ISC",
   "repository": {
     "type": "git",
